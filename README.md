@@ -28,13 +28,18 @@ Before running the project, make sure you have the following installed:
 - pip (Python package manager)
 
 ### 2️⃣ Download Required Files
-Download the Pre-trained Model:
-``` 
-shape_predictor_68_face_landmarks.dat
- ```
-Unzip the .bz2 file and place it in the resources/ folder.
+#### 📥 Downloading the Pre-trained Shape Predictor File
+The ` shape_predictor_68_face_landmarks.dat file ` is a pre-trained model required for facial landmark detection.
+Due to its large size, it is not included directly in this repository.
 
-Audio File:
+Please download the file from the official dlib website or other trusted sources.
+
+Extract the `.bz2` file to get the `.dat` file. 
+
+Place the `.dat` file in the resources/ folder of this repository.
+
+#### 📢 Audio File: <br>
+
 Include a `.wav` file named `alert.wav` in the resources/ folder.
 
 ### 3️⃣ Install Dependencies
