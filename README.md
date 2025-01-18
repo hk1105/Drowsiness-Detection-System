@@ -29,11 +29,13 @@ Before running the project, make sure you have the following installed:
 
 ### 2️⃣ Download Required Files
 Download the Pre-trained Model:
-` shape_predictor_68_face_landmarks.dat `
+``` 
+shape_predictor_68_face_landmarks.dat
+ ```
 Unzip the .bz2 file and place it in the resources/ folder.
 
 Audio File:
-Include a .wav file named music.wav in the resources/ folder.
+Include a `.wav` file named `alert.wav` in the resources/ folder.
 
 ### 3️⃣ Install Dependencies
 Run the following command to install the required Python libraries:
